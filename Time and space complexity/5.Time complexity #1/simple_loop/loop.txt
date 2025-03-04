@@ -1,0 +1,39 @@
+Increament:
+for(i=0;i<n;i++) -----n+1
+{
+    statement; -----n
+}
+
+O(n)=n
+
+
+Decreament:
+for(i=n;i>0;i--) -----n+1
+{
+    statement; -----n
+}
+
+O(n)=n
+
+ 
+
+for(i=0;i<n;i+=2) -----n/2+1
+{
+    statement; -----n/2
+}
+
+O(n)=n
+
+
+
+for(i=0;i<n;i+=20) -----n/20+1
+{
+    statement; -----n/20
+}
+
+O(n)=n
+
+
+
+
+
