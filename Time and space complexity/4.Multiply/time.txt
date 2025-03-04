@@ -1,0 +1,20 @@
+Algorithm Multiply (A,B,n)
+{
+    for(i=0;i<n;i++) ------(n+1)
+    {
+        for(j=0;j<n;j++) -----n * (n+1) = n²+n
+        { 
+            C[i,j]=0; -------n * n =n²
+            for(k=0;k<n;k++) -----n * n * (n+1) = n³+n²
+            {
+                C[i,j]=C[i,j]+A[i,j]+B[i,j]; --------n * n * n = n³
+            }
+        }
+    }
+}
+
+Time complexity:
+
+f(n)=n+1+n²+n+n²+n³+n²+n³
+    =2n³+3n²+2n+1
+    O(n³)

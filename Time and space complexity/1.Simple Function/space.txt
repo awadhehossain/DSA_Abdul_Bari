@@ -1,8 +1,8 @@
 Algarithm swap (a,b)
 {
-    int temp=a; -----1
-    a=b; -------1
-    b=temp;------1
+    int temp=a; 
+    a=b; 
+    b=temp;
 }
 /*
 Each variables is one word (Space analysis)

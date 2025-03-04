@@ -1,0 +1,20 @@
+Algorithm Add (A,B,n)
+{
+    for(int i=0;i<n;i++)  ------- n+1
+    {
+        for(int j=0;j<n;j++) ----- n * (n+1)= n²+n
+
+        {
+            C[i,j]=A[i,j]+B[i,j]; ------ n * n =n²
+
+        }
+    }
+}
+
+Time complexity: 
+
+f(n)= n+1+n²+n+n²
+    =2n²+2n+1
+O(n²)
+
+

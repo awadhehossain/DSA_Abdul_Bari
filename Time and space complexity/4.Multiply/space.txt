@@ -1,0 +1,27 @@
+Algorithm Multiply (A,B,n)
+{
+    for(i=0;i<n;i++) 
+    {
+        for(j=0;j<n;j++) 
+        { 
+            C[i,j]=0;
+            for(k=0;k<n;k++) 
+            {
+                C[i,j]=C[i,j]+A[i,j]+B[i,j];
+            }
+        }
+    }
+}
+
+Space complexity:
+variables
+i ----1
+j ----1
+k ----1
+n ----1
+A ----n²
+B ----n²
+C ----n²
+s(n)=1+1+1+1+n²+n²+n²
+    =3n²+4
+O(n²)
