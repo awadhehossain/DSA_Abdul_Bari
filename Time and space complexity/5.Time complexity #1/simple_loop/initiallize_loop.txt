@@ -1,0 +1,45 @@
+  p=0;
+  for(i=1;p<=n;i++)
+  {
+    p=p+i;
+  }
+
+
+Loop exicute calculation:
+i       p      
+
+1       0+1
+2       0+1+2
+3       0+1+2+3
+4       0+1+2+3+4
+5       0+1+2+3+4+5
+.       .
+.       .
+.       .
+.       .
+.       .
+.       .
+.       .
+k       0+1+2+3+4+5+......k =K(k+1)/2
+
+Time complexity:
+loop will stop when p>n
+
+Assume that,
+p > n
+K(k+1)/2 > n
+(k²+k)/2 > n
+k² > n
+k > √n
+
+O(√n)
+
+
+
+
+
+
+
+
+       
+
