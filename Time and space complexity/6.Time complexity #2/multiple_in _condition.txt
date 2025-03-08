@@ -1,0 +1,14 @@
+for(i=0;i*i<n;i++)
+{
+    statement;
+}
+
+Manual trace:
+The loop will stop when,
+i*i >= n 
+
+Now,
+i² = n
+i =  √n
+
+O(√n)

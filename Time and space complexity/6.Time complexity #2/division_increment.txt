@@ -1,0 +1,33 @@
+for(i=n;i>=1;i=i/2)
+{
+    statement;
+}
+
+Manual trace:
+
+i
+n
+n/2
+n/2*2 = n/2²
+n/2²*2 = n/2³
+     .
+     .
+     .
+     .
+     .
+     .
+     .
+     .
+     n/2ᵏ
+
+Assume that,
+i < 1
+n/2ᵏ < 1
+
+Now
+n/2ᵏ = 1
+n = 2ᵏ
+k=log₂(n)
+
+O(log₂(n))
+

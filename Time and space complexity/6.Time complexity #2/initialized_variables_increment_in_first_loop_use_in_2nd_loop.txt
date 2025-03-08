@@ -1,0 +1,15 @@
+p=0;
+
+for(i=1;i<n;i=i*2) 
+{
+    p++;  -------- log₂(n)
+}
+
+for(j=1;j<p;j=j*2) ------ log₂(p) = log₂(log₂(n))
+{
+    statement;
+}
+
+
+O(log₂(log₂(n)))
+

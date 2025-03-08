@@ -1,0 +1,9 @@
+for(i=0;i<n;i++) ------- n
+{
+    for(j=1;j<n;j=j*2) ------- n 
+    {
+        statement; -------- n * log₂(n)
+    }
+}
+
+O(nlog₂(n))

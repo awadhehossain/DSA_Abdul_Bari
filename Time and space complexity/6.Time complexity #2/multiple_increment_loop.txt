@@ -29,6 +29,8 @@ Now,
 k=log₂(n)
 O(log₂(n))
 
+This log should be taken the ceiling value
+
 
 
 
